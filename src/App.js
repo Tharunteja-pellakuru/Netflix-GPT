@@ -1,5 +1,11 @@
+import Body from "./components/Body";
+
 const App = () => {
-  return <div className="text-red-600">Welcome to NetFlix GPT..</div>;
+  return (
+    <div>
+      <Body />
+    </div>
+  );
 };
 
 export default App;
